@@ -5,8 +5,7 @@
     "dev": "next dev --turbopack",
     "start": "next start",
     "lint": "eslint .",
-      "seed": "node scripts/seed.js"
-
+    "seed": "node scripts/seed.js"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
@@ -14,6 +13,7 @@
     "autoprefixer": "10.4.20",
     "bcrypt": "^5.1.1",
     "clsx": "^2.1.1",
+    "dotenv": "^17.3.1",
     "next": "latest",
     "next-auth": "5.0.0-beta.30",
     "postcss": "8.5.1",
@@ -31,7 +31,8 @@
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3",
     "eslint": "^9.39.2",
-    "eslint-config-next": "^16.1.6"
+    "eslint-config-next": "^16.1.6",
+    "tsx": "^4.21.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
